@@ -1,0 +1,932 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+	.menu ul li a{
+		padding: 10px 0 0 !important;
+	}
+	.ddm_s{
+		width: 300px;
+		padding: 5px 5px;
+	}
+	.ddm_s[data-bs-popper]{
+		top: 40px;
+		left: -2px;
+
+	}
+	.s_input{
+		padding: 5px;
+	}
+	/*header end*/
+	/*banner start*/
+	.bs_item{
+	    margin-top: 130px;
+	    margin-bottom: 130px;
+    }
+	.bs_item h2{
+		font-size: 35px;
+	}
+	.bs_item p{
+		margin-top: 15px;
+		margin-bottom: 45px;
+		line-height: 25px;
+	}
+	.bs_item button{
+		width: 135px;
+		height: 35px;
+		font-size: 12px;
+	}
+	.bs_item button span{
+		padding-left: 10px;
+	}
+	/*banner end*/
+	/*welcome start*/
+	.c_title h1{
+		font-size: 28px;
+		padding-bottom: 35px;
+	}
+	.ws_item{
+		margin-top: 80px;
+		padding: 50px 33px 20px;
+	}
+	.ws_item h2::after{
+		margin: 15px auto;
+	}
+	.ws_item a{
+		padding-top: 15px;
+	}
+	.ws_item a span i{
+		padding-left: 10px;
+	}
+	/*welcome end*/
+	/*about_us start*/
+	.au{
+		margin-bottom: 100px;
+	}
+	.au_img{
+		padding-bottom: 50px;
+	}
+	.au_book{
+		width: 296px;
+		height: 250px;
+	}
+	.au_text h1{
+		font-size: 25px;
+		padding: 0 96px;
+	}
+	.au_text p{
+		line-height: 28px;
+		padding: 20px 13px 35px;
+	}
+	.au_text button{
+		width: 135px;
+		height: 35px;
+		font-size: 12px;
+		margin-left: 13px;
+	}
+	.au_text button span{
+		padding-left: 10px;
+	}
+	/*about_us end*/
+	/*recent_work start*/
+	.rw_title h1{
+		padding-bottom: 60px;
+	}
+	.rw_btn{
+		font-size: 14px;
+		padding: 8px;
+	}
+	.box img{
+		width: 247px;
+		height: 305px;
+	}
+	.box:hover .box-content{
+		left: 25px;
+		right: 23px;
+	}
+	.rw_t{
+		padding: 10px 120px 10px 25px;
+	}
+	.box .rw_i li a{
+		width: 58px;
+		height: 48px;
+		font-size: 40px;
+	}
+	/*recent_work end*/
+	/*who_work_with_us start*/
+	.wwwu{
+		height: 2000px;
+	}
+	.wwwu_title h1{
+		font-size: 28px;
+	}
+	.team_img img{
+		width: 516px;
+	}
+	.team_text{
+		width: 296px;
+		top: 246px;
+	}
+	.team_text h5{
+		font-size: 18px;
+	}
+	.team_link{
+		right: 128px;
+	}
+	/*who_work_with_us end*/
+	/*best_pricing start*/
+	.bp_content{
+		padding: 50px 30px 30px;
+	}
+	.bp_content p{
+        margin-top: 5px;
+        line-height: 2;
+    }
+	.bp_content button{
+		margin-top: 25px;
+		padding: 10px 25px;
+	}
+	.bp_s span{
+		padding-left: 20px;
+	}
+	/*best_pricing end*/
+	/*buy_now start*/
+	.bn_text{
+		font-size: 15px;
+	}
+	.bn_b{
+		margin: 25px 80px 0;
+		padding: 10px 19px;
+	}
+	.bn_b span{
+	    padding-left: 15px;
+    }
+	/*buy_now end*/
+	/*slider start*/
+	.sl_content{
+		text-align: center;
+		padding: 15px 15px;
+	}
+	.sl_img{
+		margin: 0 auto;
+	}
+	.sl_text{
+		padding-top: 50px;
+	}
+	.sl_text h4{
+		padding-bottom: 10px;
+	}
+	.sl_text h5{
+		padding-bottom: 10px;
+	}
+	.sl_text h6{
+		padding-bottom: 10px;
+	}
+	.sl_text p{
+		padding-top: 15px;
+	}
+	.sl_btn{
+		height: 50px;
+		margin-top: 20px;
+		padding: 5px 0;
+		display: block;
+		flex-direction: unset;
+	}
+	.sl_bp{
+		transform: none;
+	}
+	.sl_btn span{
+		margin: 0 30px;
+	}
+	.sl_bn{
+		transform: none;
+	}
+	/*slider end*/
+	/*contact_us start*/
+	.cu_content{
+		padding: 65px 30px 0;
+	}
+	.cu_title{
+		margin: 0 25px;
+	}
+	.cu_title h3{
+		margin-top: -80px;
+		font-size: 25px;
+	}
+	.fn{
+		padding: 10px 0 10px 5px;
+	}
+	.fe{
+		padding: 30px 0 10px 5px;
+	}
+	.fm{
+		padding: 30px 0 20px 5px;
+	}
+	.f_btn{
+		margin: 35px 0;
+		padding: 10px 20px;
+	}
+	.f_btn span i{
+		padding-left: 15px;
+	}
+	/*contact_us end*/
+	/*footer start*/
+	.f_text p{
+		padding: 40px 0px
+	}
+	.fs_icon ul li{
+		padding-right: 5px;
+	}
+	.fs_icon ul li a i{
+		font-size: 16px;
+		padding: 7px;
+	}
+	.f_b{
+		text-align: center;
+	}
+	.fe_s p{
+		padding: 15px 0 20px;
+		font-size: 16px;
+	}
+	.fe_e ul{
+		padding: 30px 0 0;
+	}
+	.fe_e ul li:first-child a{
+		margin-left: 0;
+		padding-right: 10px;
+	}
+	.fe_e ul li:nth-child(2) a{
+		padding-right: 10px;
+	}
+	.fe_e ul li:nth-child(3) a{
+		padding-right: 0;
+	}
+	.fe_e ul li:nth-child(4) a{
+		padding-right: 25px;
+		line-height: 3;
+	}
+	/*footer end*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	.menu ul li a{
+		padding: 15px 0 0 !important;
+	}
+	.ddm_s[data-bs-popper]{
+		top: 0;
+		left: 100px;
+
+	}
+	/*header end*/
+	/*banner start*/
+	.bs_item{
+	    margin-top: 170px;
+	    margin-bottom: 170px;
+    }
+	.bs_item h2{
+		font-size: 45px;
+	}
+	.bs_item p{
+		margin-top: 20px;
+		line-height: 25px;
+	}
+	.bs_item button{
+		width: 160px;
+		height: 40px;
+	}
+	.bs_item button span{
+		padding-left: 14px;
+	}
+	/*banner end*/
+	/*welcome start*/
+	.c_title h1{
+		padding-bottom: 40px;
+	}
+	.ws_item{
+		margin-top: 80px;
+		padding: 50px 33px 20px;
+	}
+	.ws_item h2::after{
+		margin: 15px auto;
+	}
+	.ws_item a{
+		padding-top: 15px;
+	}
+	.ws_item a span i{
+		padding-left: 10px;
+	}
+	/*welcome end*/
+	/*about_us start*/
+	.au{
+		margin-bottom: 100px;
+	}
+	.au_img{
+		padding-bottom: 50px;
+	}
+	.au_book{
+		width: 516px;
+		height: 355px;
+	}
+	.au_text h1{
+		font-size: 25px;
+		padding: 0 206px;
+	}
+	.au_text p{
+		line-height: 28px;
+		padding: 20px 25px 35px;
+	}
+	.au_text button{
+		width: 160px;
+		height: 40px;
+		font-size: 15px;
+		margin-left: 25px;
+	}
+	.au_text button span{
+		padding-left: 14px;
+	}
+	/*about_us end*/
+	/*recent_work start*/
+	.rw_btn{
+		font-size: 14px;
+		padding: 8px;
+	}
+	.box img{
+		width: 247px;
+		height: 305px;
+	}
+	.box:hover .box-content{
+		left: 0;
+		right: -2px;
+	}
+	.rw_t{
+		padding: 10px 120px 10px 25px;
+	}
+	.box .rw_i li a{
+		width: 58px;
+		height: 48px;
+		font-size: 40px;
+	}
+	/*recent_work end*/
+	/*who_work_with_us start*/
+	.wwwu{
+		height: 2000px;
+	}
+	.team_img img{
+		width: 516px;
+	}
+	.team_text{
+		width: 516px;
+		top: 246px;
+	}
+	.team_text h5{
+		font-size: 18px;
+	}
+	.team_link{
+		right: 238px;
+	}
+	/*who_work_with_us end*/
+	/*best_pricing start*/
+	.bp_content{
+		padding: 50px 30px 40px;
+	}
+	.bp_content button{
+		padding: 10px 25px;
+	}
+	.bp_s span{
+		padding-left: 20px;
+	}
+	/*best_pricing end*/
+	/*buy_now start*/
+	.bn_text{
+		font-size: 17px;
+	}
+	.bn_b{
+		padding: 10px 19px;
+	}
+	.bn_b span{
+	    padding-left: 15px;
+    }
+	/*buy_now end*/
+	/*slider start*/
+	.sl_content{
+		text-align: center;
+		padding: 25px 55px;
+	}
+	.sl_img{
+		margin: 0 auto;
+	}
+	.sl_text{
+		padding-top: 50px;
+	}
+	.sl_text h4{
+		padding-bottom: 10px;
+	}
+	.sl_text h5{
+		padding-bottom: 10px;
+	}
+	.sl_text h6{
+		padding-bottom: 10px;
+	}
+	.sl_text p{
+		padding-top: 15px;
+	}
+	.sl_btn{
+		height: 50px;
+		margin-top: 20px;
+		padding: 5px 0;
+		display: block;
+		flex-direction: unset;
+	}
+	.sl_bp{
+		transform: none;
+	}
+	.sl_btn span{
+		margin: 0 125px;
+	}
+	.sl_bn{
+		transform: none;
+	}
+	/*slider end*/
+	/*contact_us start*/
+	.cu_content{
+		padding: 85px 30px 0;
+	}
+	.cu_title{
+		margin: 0 135px;
+	}
+	.fn{
+		padding: 10px 0 10px 20px;
+	}
+	.fe{
+		padding: 30px 0 10px 20px;
+	}
+	.fm{
+		padding: 30px 0 20px 20px;
+	}
+	.f_btn{
+		margin: 35px 0;
+		padding: 10px 30px;
+	}
+	/*contact_us end*/
+	/*footer start*/
+	.f_text p{
+		padding: 40px 0px
+	}
+	.fs_icon ul li{
+		padding-right: 10px;
+	}
+	.fs_icon ul li a i{
+		font-size: 20px;
+		padding: 11px;
+	}
+	.f_b{
+		text-align: center;
+	}
+	.fe_s p{
+		padding: 30px 0;
+		font-size: 16px;
+	}
+	.fe_e ul{
+		padding: 30px 0 0;
+	}
+	.fe_e ul li a{
+		padding-right: 25px;
+		font-size: 16px;
+	}
+	.fe_e ul li:first-child a{
+		margin-left: 0;
+	}
+	/*footer end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	.menu ul li a{
+		padding: 15px 0 0 !important;
+	}
+	.ddm_s[data-bs-popper]{
+		top: 0;
+		left: 100px;
+
+	}
+	/*header end*/
+	/*banner start*/
+	.bs_item{
+	    margin-top: 185px;
+	    margin-bottom: 185px;
+    }
+	.bs_item h2{
+		font-size: 35px;
+	}
+	.bs_item p{
+		margin-top: 35px;
+	}
+	.bs_item button{
+		width: 170px;
+		height: 45px;
+	}
+	/*banner end*/
+	/*welcome start*/
+	.c_title h1{
+		padding-bottom: 40px;
+	}
+	.ws_item{
+		margin-top: 100px;
+		padding: 50px 33px 20px;
+	}
+	.ws_item h2::after{
+		margin: 15px auto;
+	}
+	.ws_item a{
+		padding-top: 15px;
+	}
+	.ws_item a span i{
+		padding-left: 10px;
+	}
+	/*welcome end*/
+	/*about_us start*/
+	.au{
+		margin-bottom: 100px;
+	}
+	.au_img{
+		padding-bottom: 50px;
+	}
+	.au_book{
+		width: 696px;
+		height: 385px;
+	}
+	.au_text h1{
+		font-size: 25px;
+		padding: 0 296px;
+	}
+	.au_text p{
+		line-height: 28px;
+		padding: 20px 45px 35px;
+	}
+	.au_text button{
+		width: 170px;
+		height: 45px;
+		font-size: 15px;
+		margin-left: 45px;
+	}
+	/*about_us end*/
+	/*recent_work start*/
+	.box img{
+		width: 333px;
+		height: 360px;
+	}
+	.box:hover .box-content{
+		left: 2px;
+		right: 0;
+	}
+	.rw_t{
+		padding: 10px 206px 10px 25px;
+	}
+	.box .rw_i li a{
+		width: 58px;
+		height: 48px;
+		font-size: 40px;
+	}
+	/*recent_work end*/
+	/*who_work_with_us start*/
+	.wwwu{
+		height: 1158px;
+	}
+	.team_img img{
+		width: 336px;
+	}
+	.team_text{
+		width: 336px;
+		top: 246px;
+	}
+	.team_text h5{
+		font-size: 18px;
+	}
+	.team_link{
+		right: 148px;
+		bottom: 35px;
+	}
+	/*who_work_with_us end*/
+	/*best_pricing start*/
+	.bp_content{
+		padding: 50px 30px 40px;
+	}
+	.bp_content button{
+		padding: 15px 40px;
+	}
+	/*best_pricing end*/
+	/*buy_now start*/
+	.bn_text{
+		font-size: 17px;
+	}
+	.bn_b{
+		padding: 10px 19px;
+	}
+	.bn_b span{
+	    padding-left: 15px;
+    }
+	/*buy_now end*/
+	/*slider start*/
+	.sl_content{
+		text-align: center;
+		padding: 35px 55px;
+	}
+	.sl_img{
+		margin: 0 auto;
+	}
+	.sl_text{
+		padding-top: 50px;
+	}
+	.sl_text h4{
+		padding-bottom: 10px;
+	}
+	.sl_text h5{
+		padding-bottom: 10px;
+	}
+	.sl_text h6{
+		padding-bottom: 10px;
+	}
+	.sl_text p{
+		padding-top: 15px;
+	}
+	.sl_btn{
+		height: 50px;
+		margin-top: 20px;
+		padding: 5px 0;
+		display: block;
+		flex-direction: unset;
+	}
+	.sl_bp{
+		transform: none;
+	}
+	.sl_btn span{
+		margin: 0 150px;
+	}
+	.sl_bn{
+		transform: none;
+	}
+	/*slider end*/
+	/*contact_us start*/
+	.cu_content{
+		padding: 85px 40px 0;
+	}
+	.cu_title{
+		margin: 0 215px;
+	}
+	.fn{
+		padding: 10px 0 10px 20px;
+	}
+	.fe{
+		padding: 30px 0 10px 20px;
+	}
+	.fm{
+		padding: 30px 0 20px 20px;
+	}
+	.f_btn{
+		margin: 35px 0;
+		padding: 10px 30px;
+	}
+	/*contact_us end*/
+	/*footer start*/
+	.f_text p{
+		padding: 40px 31px
+	}
+	.fs_icon ul li{
+		padding-right: 10px;
+	}
+	.fs_icon ul li a i{
+		padding: 11px;
+	}
+	.f_b{
+		text-align: center;
+	}
+	.fe_s p{
+		padding: 30px 0;
+		font-size: 16px;
+	}
+	.fe_e ul{
+		padding: 30px 0 0;
+	}
+	.fe_e ul li a{
+		padding-right: 25px;
+		font-size: 16px;
+	}
+	.fe_e ul li:first-child a{
+		margin-left: 0;
+	}
+	.f_text p{
+		padding: 40px 31px
+	}
+	/*footer end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*banner start*/
+	.bs_item{
+	    margin-top: 200px;
+	    margin-bottom: 200px;
+    }
+	.bs_item h2{
+		font-size: 47px;
+	}
+	.bs_item button{
+		width: 180px;
+	}
+	/*banner end*/
+	/*welcome start*/
+	.ws_item{
+		padding: 50px 0 20px;
+	}
+	.ws_item h2::after{
+		margin: 15px auto;
+	}
+	.ws_item a{
+		padding-top: 15px;
+	}
+	.ws_item a span i{
+		padding-left: 10px;
+	}
+	/*welcome end*/
+	/*about_us start*/
+	.au_text h1{
+		font-size: 25px;
+	}
+	.au_text p{
+		line-height: 28px;
+		padding: 20px 0 25px;
+	}
+	.au_text button{
+		width: 170px;
+		font-size: 15px;
+	}
+	/*about_us end*/
+	/*recent_work start*/
+	.box img{
+		width: 299px;
+		height: 360px;
+	}
+	.box:hover .box-content{
+		left: 0;
+		right: -3px;
+	}
+	.rw_t{
+		padding: 10px 171px 10px 25px;
+	}
+	.box .rw_i li a{
+		width: 58px;
+		height: 48px;
+		font-size: 40px;
+	}
+	/*recent_work end*/
+	/*who_work_with_us start*/
+	.team_img img{
+		width: 260px;
+	}
+	.team_text{
+		width: 216px;
+		top: 249px;
+	}
+	.team_text h5{
+		font-size: 16px;
+	}
+	.team_link{
+		right: 87px;
+		bottom: 15px;
+	}
+	/*who_work_with_us end*/
+	/*best_pricing start*/
+	.bp_content{
+		padding: 50px 65px 40px;
+	}
+	.bp_content button{
+		padding: 15px 40px;
+	}
+	/*best_pricing end*/
+	/*buy_now start*/
+	.bn_b{
+		padding: 10px 19px;
+	}
+	.bn_b span{
+	    padding-left: 15px;
+    }
+	/*buy_now end*/
+	/*slider start*/
+	.sl_content{
+		padding: 30px 20px;
+	}
+	/*slider end*/
+	/*contact_us start*/
+	.cu_title{
+		margin: 0 60px;
+	}
+	.fn{
+		padding: 10px 0 10px 20px;
+	}
+	.fe{
+		padding: 30px 0 10px 20px;
+	}
+	.fm{
+		padding: 30px 0 30px 20px;
+	}
+	/*contact_us end*/
+	/*footer start*/
+	.f_text p{
+		padding: 40px 21px
+	}
+	.fs_icon ul li{
+		padding-right: 10px;
+	}
+	.fs_icon ul li a i{
+		padding: 11px;
+	}
+	.fe_s p{
+		padding: 30px 0;
+		font-size: 15px;
+	}
+	.fe_e ul{
+		padding: 30px 0;
+	}
+	.fe_e ul li a{
+		padding-right: 30px;
+		font-size: 15px;
+	}
+	.fe_e ul li:first-child a{
+		margin-left: 0;
+	}
+	/*footer end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*banner start*/
+	.bs_item{
+	    margin-top: 200px;
+	    margin-bottom: 200px;
+    }
+	.bs_item h2{
+		font-size: 56px;
+	}
+	.bs_item button{
+		width: 190px;
+	}
+	/*banner end*/
+	/*about_us start*/
+	.au_text button{
+		width: 190px;
+	}
+	/*about_us end*/
+	/*recent_work start*/
+	.box:hover .box-content{
+		left: 3px;
+		right: 3px;
+	}
+	.rw_t{
+		padding: 12px 222px 12px 25px;
+	}
+	/*recent_work end*/
+	/*who_work_with_us start*/
+	.team_img img{
+		width: 260px;
+	}
+	.team_text{
+	    width: 260px;
+	}
+	.team_link{
+		right: 110px;
+	}
+	/*who_work_with_us end*/
+	/*buy_now start*/
+	.bn_b{
+		padding: 20px 29px;
+	}
+	/*buy_now end*/
+	/*contact_us start*/
+	.cu_title{
+		margin: 0 90px;
+	}
+	.fn{
+		padding: 10px 0 10px 20px;
+	}
+	.fe{
+		padding: 30px 0 10px 20px;
+	}
+	.fm{
+		padding: 30px 0 30px 20px;
+	}
+	/*contact_us end*/
+	/*footer start*/
+	.fe_e ul li:first-child a{
+		margin-left: 41px;
+	}
+	.f_text p{
+		padding: 40px 58px
+	}
+	/*footer end*/
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { ... }
